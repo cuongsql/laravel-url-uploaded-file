@@ -1,6 +1,6 @@
 <?php
 
-namespace Naxon\UrlUploadedFile\Exceptions;
+namespace minhcuong2000\UrlUploadedFile\Exceptions;
 
 use Exception;
 

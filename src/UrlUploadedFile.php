@@ -1,15 +1,15 @@
 <?php
 
-namespace Naxon\UrlUploadedFile;
+namespace minhcuong2000\UrlUploadedFile;
 
 use Illuminate\Http\UploadedFile;
-use Naxon\UrlUploadedFile\Exceptions\CantOpenFileFromUrlException;
+use minhcuong2000\UrlUploadedFile\Exceptions\CantOpenFileFromUrlException;
 
 class UrlUploadedFile extends UploadedFile
 {
     public static function createFromUrl(string $url, string $originalName = '', string $mimeType = null, int $error = null, bool $test = false): self
     {
-        if (! $stream = @fopen($url, 'r')) {
+        if (!$stream = @fopen($url, 'r')) {
             throw new CantOpenFileFromUrlException($url);
         }
 
