@@ -6,14 +6,14 @@
 
 This package extends Laravel's [`UploadedFile`](https://github.com/laravel/framework/blob/8.x/src/Illuminate/Http/UploadedFile.php) functionality using file URLs instead of regular file uploads.
 
-Read the full post in my blog: https://naxon.dev/blog/upload-files-from-urls-in-laravel
+Read the full post in my blog: https://cuongsql.com
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require naxon/laravel-url-uploaded-file
+composer require minhcuong2000/laravel-url-uploaded-file
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ composer require naxon/laravel-url-uploaded-file
 ``` php
 use Naxon\UrlUploadedFile\UrlUploadedFile;
 
-$file = UrlUploadedFile::createFromUrl('https://naxon.dev/assets/img/portrait.jpg');
+$file = UrlUploadedFile::createFromUrl('https://cuongsql.com/logo.png');
 ```
 
 Now, because `UrlUploadedFile` extends `UploadedFile`, you can [store](https://laravel.com/docs/8.x/requests#storing-uploaded-files) it, get its [path and extension](https://laravel.com/docs/8.x/requests#storing-uploaded-files) and use `UploadedFile`'s functionality with it.
