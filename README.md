@@ -1,11 +1,3 @@
-# Uploade files from URLs in Laravel
-
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/minhcuong2000/laravel-url-uploaded-file.svg?style=flat-square)](https://packagist.org/packages/minhcuong2000/laravel-url-uploaded-file)
-![Tests](https://github.com/minhcuong2000/laravel-url-uploaded-file/workflows/Tests/badge.svg?branch=main)
-[![Total Downloads](https://img.shields.io/packagist/dt/minhcuong2000/laravel-url-uploaded-file.svg?style=flat-square)](https://packagist.org/packages/minhcuong2000/laravel-url-uploaded-file)
-
-This package extends Laravel's [`UploadedFile`](https://github.com/laravel/framework/blob/8.x/src/Illuminate/Http/UploadedFile.php) functionality using file URLs instead of regular file uploads.
-
 Read the full post in my blog: https://cuongsql.com
 
 ## Installation
@@ -19,7 +11,7 @@ composer require minhcuong2000/laravel-url-uploaded-file
 ## Usage
 
 ``` php
-use minhcuong2000\UrlUploadedFile\UrlUploadedFile;
+use Minhcuong2000\UrlUploadedFile\UrlUploadedFile;
 
 $file = UrlUploadedFile::createFromUrl('https://cuongsql.com/logo.png');
 ```

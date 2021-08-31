@@ -1,9 +1,9 @@
 <?php
 
-namespace minhcuong2000\UrlUploadedFile;
+namespace Minhcuong2000\UrlUploadedFile;
 
 use Illuminate\Http\UploadedFile;
-use minhcuong2000\UrlUploadedFile\Exceptions\CantOpenFileFromUrlException;
+use Minhcuong2000\UrlUploadedFile\Exceptions\CantOpenFileFromUrlException;
 
 class UrlUploadedFile extends UploadedFile
 {
