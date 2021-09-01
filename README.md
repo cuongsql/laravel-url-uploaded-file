@@ -27,25 +27,3 @@ composer test
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
-## Roadmap
-
-Version 1.0 provides basic functionality only. It was extracted from a real project I was working on. The plan for version 2.0 is to extend the functionality by adding more downloaders.
-
-## Contributing
-
-Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
-
-## Security Vulnerabilities
-
-Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
-
-## Credits
-
-- [Daniel minhcuong2000](https://github.com/minhcuong2000D)
-- [Spatie](https://github.com/spatie) - On the idea of how to [download files](https://github.com/spatie/laravel-medialibrary/blob/9dc99067cb78f6902b2f70601fb62fe16ba0f7ec/src/Downloaders/DefaultDownloader.php).
-- [All Contributors](../../contributors)
-
-## License
-
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
