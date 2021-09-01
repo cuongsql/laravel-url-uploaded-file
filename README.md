@@ -27,3 +27,7 @@ composer test
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+
+## Roadmap
+
+Version 1.0 provides basic functionality only. It was extracted from a real project I was working on. The plan for version 2.0 is to extend the functionality by adding more downloaders.
