@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Naxon\\UrlUploadedFile\\": "src"
+            "Cuongsql\\UrlUploadedFile\\": "src"
         }
     },
     "autoload-dev": {
