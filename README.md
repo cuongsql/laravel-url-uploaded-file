@@ -5,13 +5,13 @@ Read the full post in my blog: https://cuongsql.com
 You can install the package via composer:
 
 ```bash
-composer require minhcuong2000/laravel-url-uploaded-file
+composer require cuongsql/laravel-url-uploaded-file
 ```
 
 ## Usage
 
 ``` php
-use Minhcuong2000\UrlUploadedFile\UrlUploadedFile;
+use Cuongsql\UrlUploadedFile\UrlUploadedFile;
 
 $file = UrlUploadedFile::createFromUrl('https://cuongsql.com/logo.png');
 ```
